@@ -1,0 +1,30 @@
+{
+    "name": "andlesn/jjengine",
+    "version": "1.0.0",
+    "description": "Game Engine",
+    "homepage": "https://andrzejlesniak.pl",
+    "license": "",
+    "authors": [{
+        "name": "Andrzej Lesniak",
+        "email": "it@andrzejlesniak.pl",
+        "homepage": "https://andrzejlesniak.pl",
+        "role": "Developer"
+    }],
+    "require": {
+    },
+    "autoload": {
+        "classmap": [
+            "src"
+        ],
+        "psr-4": {
+            "AndLesn\\JJEngine\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AndLesn\\JJEngine\\EngineServiceProvider"
+            ]
+        }
+    },
+}
